@@ -3,20 +3,20 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'New Rocker', cursive;
     padding: 10px;
-	border-style: solid;
-    border-color: red;
-    background: #f1f1f1;
+	border-style: dashed;
+    border-color: black;
+    background: #ffe1f1;
 }
 
 /* Header/Blog Title */
 .header {
     padding: 30px;
     text-align: center;
-    background: white;
-	border-style: solid;
-    border-color: blue;
+    background: #FFB8DE;
+	border-style: dashed;
+    border-color: black;
 }
 
 .header h1 {
@@ -26,9 +26,9 @@ body {
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
-	border-style: solid;
-    border-color: green;
+    background-color: #FF5AB3;
+	border-style: dashed;
+    border-color: black;
 }
 
 /* Style the topnav links */
@@ -43,7 +43,7 @@ body {
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #d42323;
     color: black;
 }
 
@@ -52,8 +52,8 @@ body {
 .leftcolumn {   
     float: left;
     width: 75%;
-	border-style: solid;
-    border-color: yellow;
+	border-style: dashed;
+    border-color: black;
 }
 
 /* Right column */
@@ -62,7 +62,7 @@ body {
     width: 25%;
     background-color: #f1f1f1;
     padding-left: 20px;
-	border-style: solid;
+	border-style: dashed;
     border-color: black;
 }
 
@@ -75,7 +75,7 @@ body {
 
 /* Add a card effect for articles */
 .card {
-    background-color: white;
+    background-color: #FF9CD1;
     padding: 20px;
     margin-top: 20px;
 }
@@ -93,8 +93,8 @@ body {
     text-align: center;
     background: #ddd;
     margin-top: 20px;
-	border-style: solid;
-    border-color: orange;
+	border-style: dashed;
+    border-color: black;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
@@ -112,3 +112,5 @@ body {
         width: 100%;
     }
 }
+.gothicfont { font-family: 'New Rocker', cursive; }
+.sansfont { font-family: 'Oswald', sans-serif; }
